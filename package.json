@@ -6,6 +6,10 @@
   "private": true,
   "license": "UNLICENSED",
   "scripts": {
+    "start:api": "nest start api",
+    "start:worker": "nest start worker",
+    "start:dev:api": "nest start api --watch",
+    "start:dev:worker": "nest start worker --watch",
     "build": "nest build",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
     "start": "nest start",
